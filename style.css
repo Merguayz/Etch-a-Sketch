@@ -1,5 +1,6 @@
 body {
     display: flex;
+    flex-direction: column-reverse;
     height: 100vh;
     justify-content: center;
     align-items: center;
@@ -7,8 +8,8 @@ body {
 
 div {
     border: solid black 1px;
-    height: 30px;
-    width: 30px;
+    height: 38px;
+    width: 38px;
 }
 
 .container {
@@ -16,6 +17,6 @@ div {
     flex: 0 0 auto;
     flex-wrap: wrap;
     align-content: center;
-    width: 512px;
-    height: 512px;
+    width: 640px;
+    height: 640px;
 }
